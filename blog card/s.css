@@ -3,11 +3,10 @@
     margin: 0px;
 }
 
-.body{
+body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height:646px;
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree";
     font-optical-sizing: 5px;
@@ -21,7 +20,7 @@
     border-radius: 15px;
     border: 1px solid black;
     box-shadow: 8px 8px 0px black ;
-    margin-top: 115px;
+    margin-top: 100px;
 }
 
 
@@ -76,12 +75,9 @@ h3{
 
 @media screen and (max-width="600px"){
     .body {
-        width: 75%;
-        height: 50%;
-        border-radius: 15px;
-        border: 1px solid black;
-        box-shadow: 8px 8px 0px black ;
-        margin-top: 50%;
+        width: 50%;
+        height: 200px;
+        margin-bottom: 70;
     }    
 }
 
